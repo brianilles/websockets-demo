@@ -1,0 +1,19 @@
+.App {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+input {
+  margin-bottom: 3px;
+}
