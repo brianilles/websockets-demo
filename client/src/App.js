@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import Message from "./Message.js";
+import Messenger from "./Messenger.js";
 
 class App extends Component {
   render() {
@@ -10,7 +10,7 @@ class App extends Component {
           Websockets Demo 4/29/19. Repo{" "}
           <a href="https://github.com/brilles/websockets-demo">here</a>{" "}
         </h2>
-        <Message />
+        <Messenger />
       </div>
     );
   }
